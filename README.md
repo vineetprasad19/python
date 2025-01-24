@@ -3,7 +3,7 @@ Cheatsheet for Python Commands
 
 This Python Cheatsheet provides a quick reference to essential commands and concepts, designed to help developers, especially beginners, efficiently navigate Python's vast functionality. Below is an overview of key categories and their associated commands: Author Vineet Prasad
 
-1. Basic Syntax and Operations
+**1. Basic Syntax and Operations**
 Print and Comments:
  
 print("Hello, World!")  # Print statement
@@ -20,7 +20,7 @@ product = 4 * 7
 division = 10 / 2
 
 
-2. Data Structures
+**2. Data Structures**
 Lists:
  
 fruits = ["apple", "banana", "cherry"]
@@ -40,7 +40,7 @@ colors = {"red", "green", "blue"}
 colors.add("yellow")
 
 
-3. Loops and Conditionals
+**3. Loops and Conditionals**
 If-Else Statements:
  
 if x > 5:
@@ -59,7 +59,7 @@ while count < 5:
     count += 1
 	
 	
-4. Functions
+**4. Functions**
 Defining Functions:
  
 def greet(name):
@@ -67,7 +67,7 @@ def greet(name):
 print(greet("Alice"))
 
 
-5. File Handling
+**5. File Handling**
 Reading and Writing Files:
  
 with open("file.txt", "r") as file:
@@ -76,7 +76,7 @@ with open("file.txt", "w") as file:
     file.write("Hello, World!")
 	
 	
-6. Exception Handling
+**6. Exception Handling**
 Try-Except Block:
  
 try:
@@ -85,7 +85,7 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 	
 	
-7. Libraries and Modules
+**7. Libraries and Modules**
 Importing Modules:
  
 import math
@@ -96,7 +96,7 @@ Pandas for data manipulation
 Matplotlib for plotting
 
 
-8. Object-Oriented Programming (OOP)
+**8. Object-Oriented Programming (OOP)**
 Classes and Objects:
  
 class Dog:
@@ -110,7 +110,7 @@ my_dog = Dog("Buddy")
 print(my_dog.bark())
 
 
-9. Advanced Topics
+**9. Advanced Topics**
 List Comprehensions:
 
 squares = [x**2 for x in range(5)]
@@ -132,7 +132,7 @@ def say_hello():
     print("Hello!")
 	
 	
-10. Debugging Tools
+**10. Debugging Tools**
 Using Debugger:
 
 python -m pdb script.py
